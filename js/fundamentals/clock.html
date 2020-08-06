@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Clock</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <h1>JavaScript Coding</h1>
+        <p>With XeroxZen</p>
+    </div>
+    <script type="text/javascript">
+        function printTime() {
+            var now = new Date();
+            var hours = now.getHours();
+            var mins = now.getMinutes();
+            var secs = now.getSeconds();
+
+            document.write(hours + ':' + mins + ':' + secs + "<br>")
+        }
+
+        setInterval('printTime()', 1000 * 10);
+    </script>
+
+</body>
+
+</html>

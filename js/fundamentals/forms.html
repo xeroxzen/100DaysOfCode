@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Forms</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+</head>
+
+<body id="body">
+    <div class="header">
+        <h1>Form Validation</h1>
+        <p>With Andile M</p>
+    </div>
+    <hr>
+    <div class="container">
+        <form method="POST" action="somthing.php" name="myform">
+            <div>
+                <label>First Name: </label>
+                <input type="text" name="firstName" id="firstName" />
+            </div>
+            </br>
+            <div>
+                <label>Last Name: </label>
+                <input type="text" name="lastName" id="lastName" />
+            </div>
+            </br>
+            <div>
+                <label>Background: </label>
+                <select name="Background" id="Background" onchange="changeBackground(this)">
+			<option value="red">Red</option>
+			<option value="green">Green</option>
+			<option value="purple">Purple</option>
+		</select>
+            </div>
+            </br>
+            <input type="submit" value="Submit" />
+        </form>
+    </div>
+    <script type="text/javascript">
+        function changeBackground(x) {
+            console.log(x.value);
+            var body = document.getElementById('body');
+            body.style.backgroundColor = x.value;
+        }
+    </script>
+</body>
+
+</html>
