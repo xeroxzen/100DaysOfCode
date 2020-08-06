@@ -43,3 +43,14 @@ I want to start from the very beginning by re-learning JavaScript before jumping
 Let's do this
 
 ### Day 1
+My #100DaysOfCode source code is available on https://github.com/xeroxzen/100DaysOfCode 
+
+It's Day 1 I didn't want to burn myself out so early. Instead I spent much of my time configuring my development environment. To ensure I remain productive and efficient I installed 100 Days of Code Pack
+
+It's a very neat add-on for VS Code, it's worth checking out. I figure I will be using the terminal a lot so I also went ahead and finally installed Microsoft Terminal which is highly customizable and handles multiple tabs
+
+
+### Day 2 
+Covered JavaScript, it was more of a recap really, once I got my text editor fired up it all came back to me. I covered the JS fundamentals i.e 1) Data Types 2) Variables 3) arrays 4) if statements.Nerd face
+
+### Day 3
