@@ -15,7 +15,7 @@
         }
         
         #graph {
-            border: solid black 1px;
+            border: solid purple 2px;
         }
         
         th,
@@ -26,62 +26,72 @@
 </head>
 
 <body>
-    <table>
-        <tr>
-            <th>Enter Loan Data:</th>
-        </tr>
-        <td></td>
+    <div class="container">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Javascript Loan Calculator</h1>
+                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            </div>
+        </div>
 
-        <th>Loan Balance, Cumulative Equity, and Interest Payments</th>
-        <tr>
-            <td>Amount of the loan ($):</td>
-            <td><input id="amount" onchange="calculate();"></td>
-            <td rowspan="8">
-                <canvas id="graph" width="400" height="250"></canvas></td>
-        </tr>
+        <table>
+            <tr>
+                <th>Enter Loan Data:</th>
+            </tr>
+            <td></td>
 
-        <tr>
-            <td>Annual Interest (%):</td>
-            <td><input id="apr" onchange="calculate();"></td>
-        </tr>
-
-        <tr>
-            <td>Repayment period (years):</td>
-            <td><input id="years" onchange="calculate();"></td>
+            <th>Loan Balance, Cumulative Equity, and Interest Payments</th>
+            <tr>
+                <td>Amount of the loan ($):</td>
+                <td><input id="amount" onchange="calculate();"></td>
+                <td rowspan="8">
+                    <canvas id="graph" width="400" height="250"></canvas></td>
+            </tr>
 
             <tr>
-                <td>Zipcode (to find the lenders):</td>
-                <td><input id="zipcode" onchange="calculate();"></td>
+                <td>Annual Interest (%):</td>
+                <td><input id="apr" onchange="calculate();"></td>
+            </tr>
+
+            <tr>
+                <td>Repayment period (years):</td>
+                <td><input id="years" onchange="calculate();"></td>
 
                 <tr>
-                    <th>Approximate Payments:</th>
-                    <td><button onclick="calculate();">Calculate</button></td>
-                </tr>
+                    <td>Zipcode (to find the lenders):</td>
+                    <td><input id="zipcode" onchange="calculate();"></td>
 
-                <tr>
-                    <td>Monthly Payment:</td>
-                    <td>$<span class="output" id="payment"></span></td>
-                </tr>
+                    <tr>
+                        <th>Approximate Payments:</th>
+                        <td><button onclick="calculate();">Calculate</button></td>
+                    </tr>
 
-                <tr>
-                    <td>Total Payment:</td>
-                    <td>$<span class="output" id="total"></span></td>
-                </tr>
+                    <tr>
+                        <td>Monthly Payment:</td>
+                        <td>$<span class="output" id="payment"></span></td>
+                    </tr>
 
-                <tr>
-                    <td>Total Interest:</td>
-                    <td>$<span class="output" id="totalinterest"></span></td>
-                </tr>
+                    <tr>
+                        <td>Total Payment:</td>
+                        <td>$<span class="output" id="total"></span></td>
+                    </tr>
 
-                <tr>
-                    <th>Sponsors:</th>
-                    <td colspan="2">
-                        Apply for your loan with these fine lenders:
-                        <div id="lenders"></div>
-                    </td>
-                </tr>
+                    <tr>
+                        <td>Total Interest:</td>
+                        <td>$<span class="output" id="totalinterest"></span></td>
+                    </tr>
 
-    </table>
+                    <tr>
+                        <th>Sponsors:</th>
+                        <td colspan="2">
+                            Apply for your loan with these fine lenders:
+                            <div id="lenders"></div>
+                        </td>
+                    </tr>
+
+        </table>
+    </div>
+
     <script type="text/javascript">
         function calculate() {
             // Look up the input and output elements in the document

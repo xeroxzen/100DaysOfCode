@@ -5,3 +5,9 @@
 h2 {
     color: #04B4AE;
 }
+
+.display-4,
+.lead {
+    text-align: center;
+    float: center;
+}
