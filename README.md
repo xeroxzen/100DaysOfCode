@@ -25,6 +25,7 @@ I am undertaking this challenge for the simple task that I want to be a full sta
 8. Python/Django
 9. Jira/Trello
 10. React Native
+11. TypeScript
 
 ## Getting Started
 I want to start from the very beginning by re-learning JavaScript before jumping into the core libraries of the language which are basis of my challenge.
@@ -40,3 +41,5 @@ I want to start from the very beginning by re-learning JavaScript before jumping
 
 
 Let's do this
+
+### Day 1
