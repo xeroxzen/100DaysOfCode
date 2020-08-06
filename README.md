@@ -1,6 +1,6 @@
 # 100 Days Of Code
 
-I'm publicly committing to the 100DaysOfCode Challenge starting today! Learn More and Join me! hey  @ka11away  https://100DaysOfCode.com #100DaysOfCode https://www.github.com/xeroxzen/100DaysOfCode
+I'm publicly committing to the 100DaysOfCode Challenge starting today! Learn More and Join me! hey  @ka11away  https://100DaysOfCode.com #100DaysOfCode https://github.com/xeroxzen/100DaysOfCode
 
 I am undertaking this challenge for the simple task that I want to be a full stack developer
 
@@ -16,13 +16,18 @@ I am undertaking this challenge for the simple task that I want to be a full sta
 3. BTC price notification web app
 
 ### Technologies to Learn
-1. MongoDB
-2. Express
-3. ReactJS
-4. NodeJS
-5. Firebase
-6. Python/Django
-7. Jira/Trello
+1. JavaScript and coding in-depth
+2. MongoDB
+3. Express
+5. ReactJS
+6. NodeJS
+7. Firebase
+8. Python/Django
+9. Jira/Trello
+10. React Native
+
+## Getting Started
+I want to start from the very beginning by re-learning JavaScript before jumping into the core libraries of the language which are basis of my challenge.
 
 ### Responsibilities of a full stack developer
 * Participate in product development
