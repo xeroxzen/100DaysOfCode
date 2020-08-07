@@ -40,7 +40,7 @@ I want to start from the very beginning by re-learning JavaScript before jumping
 * Troubleshoot UI.
 
 
-Let's do this
+#### Let's do this
 
 ### Day 1
 My #100DaysOfCode source code is available on https://github.com/xeroxzen/100DaysOfCode 
