@@ -47,10 +47,11 @@ My #100DaysOfCode source code is available on https://github.com/xeroxzen/100Day
 
 It's Day 1 I didn't want to burn myself out so early. Instead I spent much of my time configuring my development environment. To ensure I remain productive and efficient I installed 100 Days of Code Pack
 
-It's a very neat add-on for VS Code, it's worth checking out. I figure I will be using the terminal a lot so I also went ahead and finally installed Microsoft Terminal which is highly customizable and handles multiple tabs
+It's a very neat add-on for VS Code, it's worth checking out. I figure I will be using the terminal a lot so I also went ahead and finally installed Microsoft Terminal which is highly customizable and handles multiple tabs. #100DaysOfCode 
 
 
 ### Day 2 
-Covered JavaScript, it was more of a recap really, once I got my text editor fired up it all came back to me. I covered the JS fundamentals i.e 1) Data Types 2) Variables 3) arrays 4) if statements.Nerd face
+Covered JavaScript, it was more of a recap really, once I got my text editor fired up it all came back to me. I covered the JS fundamentals i.e 1) Data Types 2) Variables 3) arrays 4) if statements.Nerd face. #100DaysOfCode
 
 ### Day 3
+Covered JavaScript functions and conditionals. Covered a number of functions including built-in functions and user-defined #100DaysOfCode 

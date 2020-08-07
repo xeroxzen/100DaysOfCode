@@ -1,33 +1,44 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>JavaScript Functions</title>
-	<link rel="stylesheet" href="assets/css/style.css">
+    <title>JavaScript Functions</title>
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
 </head>
+
 <body>
-	<div class="container">
-		<div class="jumbotron jumbotron fluid">
-			<div class="container">
-				<h1 class="display-4">Javascript functions</h1>
-			</div>
-		</div>
-		<script type="text/javascript">
-			function calcMax(a, b, c){
-				return Math.max(a,b,c);
-			}
+    <div class="container">
+        <div class="jumbotron jumbotron fluid">
+            <div class="container">
+                <h1 class="display-4">Javascript functions</h1>
+            </div>
+        </div>
+        <script type="text/javascript">
+            function calcMax(a, b, c) {
+                return Math.max(a, b, c);
+            }
 
-			document.write("The max number is " + calcMax(4,6,9));
-			
-			function enquire(){
-				firstName = window.prompt("What's your first name?")
-				lastName = window.prompt("What's your last name?")
-				return firstName + lastName;
-			}
-			document.write(enquire())
+            document.write("The max number is " + calcMax(4, 6, 9));
 
-		</script>
-	</div>
+            /*function enquire() {
+            firstName = window.prompt("What's your first name?")
+            lastName = window.prompt("What's your last name?")
+            return firstName + " " + lastName;
+            }
+            document.write("<br>" + enquire())*/
+
+            function greeting() {
+                return "<br>Hello, how are you?"
+            }
+            document.write(greeting());
+
+            function easyCalculator() {
+
+            }
+        </script>
+    </div>
 
 </body>
+
 </html>
