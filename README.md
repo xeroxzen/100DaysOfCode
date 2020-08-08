@@ -57,4 +57,4 @@ Covered JavaScript, it was more of a recap really, once I got my text editor fir
 Covered JavaScript functions and conditionals. Covered a number of functions including built-in functions and user-defined #100DaysOfCode
 
 ### Day 4
-Let's hack  
+I spent most of the time on reading material. Thanks to @CodeAcademy they have some really great quick notes which explains javascript concepts with so much simplicity. I did manage to cover iterators which included higher order functions, callback functions and array methods. Got a couple of project ideas too. #100DaysOfCode   
