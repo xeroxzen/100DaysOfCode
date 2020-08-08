@@ -54,4 +54,7 @@ It's a very neat add-on for VS Code, it's worth checking out. I figure I will be
 Covered JavaScript, it was more of a recap really, once I got my text editor fired up it all came back to me. I covered the JS fundamentals i.e 1) Data Types 2) Variables 3) arrays 4) if statements.Nerd face. #100DaysOfCode
 
 ### Day 3
-Covered JavaScript functions and conditionals. Covered a number of functions including built-in functions and user-defined #100DaysOfCode 
+Covered JavaScript functions and conditionals. Covered a number of functions including built-in functions and user-defined #100DaysOfCode
+
+### Day 4
+Let's hack  
