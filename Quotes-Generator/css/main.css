@@ -27,5 +27,6 @@ body {
 }
 
 .author {
-    color: #64b6ac
+    color: #64b6ac;
+    font-size: 20px;
 }
