@@ -1,4 +1,4 @@
-# 100 Days Of Code
+## 100 Days Of Code
 
 I'm publicly committing to the 100DaysOfCode Challenge starting today! Learn More and Join me! hey  @ka11away  https://100DaysOfCode.com #100DaysOfCode https://github.com/xeroxzen/100DaysOfCode
 
@@ -58,3 +58,11 @@ Covered JavaScript functions and conditionals. Covered a number of functions inc
 
 ### Day 4
 I spent most of the time on reading material. Thanks to @CodeAcademy they have some really great quick notes which explains javascript concepts with so much simplicity. I did manage to cover iterators which included higher order functions, callback functions and array methods. Got a couple of project ideas too. #100DaysOfCode   
+
+```js
+const chosenParticipants = ['Andile', 'Mzie', 'Nokuzola', 'Taylor', 'Don'];
+
+const announcements = chosenParticipants.map(member => {
+    return member + " joined the contest.";
+})
+```
