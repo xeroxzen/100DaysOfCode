@@ -60,4 +60,7 @@ Covered JavaScript functions and conditionals. Covered a number of functions inc
 I spent most of the time on reading material. Thanks to @CodeAcademy they have some really great quick notes which explains javascript concepts with so much simplicity. I did manage to cover iterators which included higher order functions, callback functions and array methods. Got a couple of project ideas too. #100DaysOfCode   
 
 ### Day 5
-Look into Arrays.
+Deep dive into Arrays.
+
+### Day 6
+I covered objects. I must admit, objects are a marvel to learn. Really great stuff.
