@@ -124,6 +124,16 @@ let mobile = {
 for (let key in mobile) {
     console.log(`${key}: ${mobile[key]}`);
 }
+
+// Add another
+let computer = {
+    brand: 'Apple',
+    model: 'MacBook Pro 2019'
+};
+
+for (let key in computer) {
+    console.log(`${key}: ${computer[key]}`);
+}
 // this Keyword
 // The reserved keyword this refers to a method’ s calling object, and it can be used to access properties belonging to that object.
 
@@ -140,6 +150,15 @@ const cat = {
 
 //Output:Pipey
 
+let laptop = {
+    name: 'Sasha',
+    age: 3,
+    color: 'reddish',
+    whatName() {
+        return this.name
+    }
+};
+
 // javascript function this
 // Every JavaScript
 // function or method has a this context.For a
@@ -154,6 +173,15 @@ const restaurant = {
         //and t's used to access its properties
         return this.seatCapacity - this.numCustomer;
     }
+};
+
+let zupcoBus = {
+    numRiders: 45,
+    seatCapacity: 75,
+    availableSeats() {
+        return this.seatCapacity - this.numRiders;
+    }
+
 };
 //JavaScript Arrow Function this Scope
 // JavaScript arrow functions do not have their own this context, but use the this of the surrounding lexical context.Thus, they are generally a poor choice for writing object methods. Consider the example code: loggerA is a property that uses arrow notation to define the function.Since data does not exist in the global context, accessing this.data returns undefined. loggerB uses method syntax.Since this refers to the enclosing object, the value of the data property is accessed as expected, returning "abc"
@@ -191,7 +219,23 @@ const myCat = {
 
 console.log(myCat.name);
 
-myCat.name('Francis')
+myCat.name('Francis');
+
+
+// Let's try another
+let myMachine = {
+    _name: 'Sasha',
+    get name() {
+
+        return this._name
+    },
+    set name(newMachineName) {
+        this._name = newMachineName;
+    }
+};
+
+console.log(myMachine.name);
+myMachine.name('Diana');
 
 // getters and setters intercept property access
 // JavaScript getter and setter methods are helpful in part because they offer a way to intercept property access and assignment, and allow
@@ -226,6 +270,19 @@ const dogFactory = (name, age, breed) => {
         bark() {
 
             console.log("Woof!")
+        }
+    };
+};
+
+//Let's try another
+let babyFactory = (name, age, race) => {
+    return {
+        name: name,
+        age: age,
+        race: race,
+
+        cry() {
+            console.log("Haaaah!")
         }
     };
 };
