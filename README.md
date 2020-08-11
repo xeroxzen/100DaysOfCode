@@ -59,10 +59,5 @@ Covered JavaScript functions and conditionals. Covered a number of functions inc
 ### Day 4
 I spent most of the time on reading material. Thanks to @CodeAcademy they have some really great quick notes which explains javascript concepts with so much simplicity. I did manage to cover iterators which included higher order functions, callback functions and array methods. Got a couple of project ideas too. #100DaysOfCode   
 
-```js
-const chosenParticipants = ['Andile', 'Mzie', 'Nokuzola', 'Taylor', 'Don'];
-
-const announcements = chosenParticipants.map(member => {
-    return member + " joined the contest.";
-})
-```
+### Day 5
+Look into Arrays.
