@@ -77,3 +77,71 @@ student.score = 'B';
 console.log(student); // name: 'Andile', score: 100, grade: 'A';
 
 student = {};
+
+//Javascript Object Methods
+
+const engine = {
+    // method shorthand, with one argument
+    start(adverb) {
+        console.log(`THe engine starts up ${adverb}....`);
+    },
+
+    // anonymous arrow function expression with no arguments
+
+    sputter: () => {
+        console.log('The engine sputters...');
+    },
+}
+
+engine.start('noisily');
+engine.sputter();
+
+
+//javascript passing objecst  as arguments
+const origNum = 8;
+const origObj = { color: 'blue' };
+const changeItUp = (num, obj) => {
+    num = 7;
+    obj.color = 'red';
+};
+
+changeItUp(origNum, origObj);
+
+//Will output 8 since integers are passed by value
+console.log(origNum);
+
+//Will output 'red' since objects are passed reference and are therefore mutable
+console.log(origObj.color)
+
+//JavaScript for...in loop
+// The JavaScript for...in loop can be used to iterate over the keys of an object.In each iteration, one of the properties from the object is assigned to the variable of that loop.
+
+let mobile = {
+    brand: 'Samsung',
+    model: 'Galaxy S20'
+};
+
+for (let key in mobile) {
+    console.log(`${key}: ${mobile[key]}`);
+}
+// this Keyword
+// The reserved keyword this refers to a method’ s calling object, and it can be used to access properties belonging to that object.
+
+// Here, using the this keyword inside the object
+// function to refer to the cat object and access its name property.
+
+const cat = {
+    name: 'Pipey',
+    age: 8,
+    whatName() {
+        return this.name
+    }
+};
+
+//Output:Pipey
+
+// javascript function this
+// Every JavaScript
+// function or method has a this context.For a
+// function defined inside of an object, this will refer to that object itself.For a
+// function defined outside of an object, this will refer to the global object(window in a browser, global in Node.js).
