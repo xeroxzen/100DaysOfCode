@@ -23,8 +23,21 @@ cart.push('coke');
 
 console.log(cart);
 
+const numbers = [1, 2, 3];
+numbers.push(4, 5, 6); //1, 2, 3, 4, 5, 6
+
+
 //Method .pop()
 //The .pop()method removes the last element from theana arrayand returns that element
 
 const ingredients = ['eggs', 'chocolate', 'flour', 'honey'];
 const poppedIngredient = ingredients.pop(); //honey
+
+//Mutable
+//JS arrays are mutablee, this means that the values they contain can be changed.author
+
+// Even id thye declared using const, the contents can be manipulated by reassigninginternal values or using methods like .push() and .pop()
+
+const names = ['Simosethu', 'Lisa', 'Rejoice'];
+names.push('Andile');
+//
