@@ -64,3 +64,6 @@ Deep dive into Arrays.
 
 ### Day 6
 I covered objects. I must admit, objects are a marvel to learn. Really great stuff.
+
+### Day 7
+I covered classes
