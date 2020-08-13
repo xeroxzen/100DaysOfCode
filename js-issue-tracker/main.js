@@ -51,17 +51,17 @@ function deleteIssue(id) {
 	var issues = JSON.parse(localStorage.getItem('issues'));
 
 	for (var i = 0; i < issues.length; i++) {
-		if (issues[i].id) {
+		if (issues[i].id == id) {
 
-			issues[i].status = 'Closed';
+			issues.splice[i, 1];
 		}
 	}
 	localStorage.setItem('issues', JSON.stringify(issues));
 
 	fetchIssues();
-} 			
+}
 
-function fetchIssues() {
+function fetchIssues() { 
 	var issues = JSON.parse(localStorage.getItem('issues'));
 	const issuesList = document.getElementById('issuesList');
 
