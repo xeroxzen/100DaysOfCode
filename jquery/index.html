@@ -12,13 +12,8 @@
 	<body>
 		<div class="container">
 			<h2>JQuery Crash Course <small>by Nexuslabs, Inc.</small></h2>
-			<div class="puppers">
-				<img src="assets/img/elonmusk.jpg" alt="Elon Musk">
-				<img src="assets/img/stevejobs.jpg" alt="Steve Jobs">
-				<img src="assets/img/satyanadella.jpg" alt="Satya Nadella">
-				<img src="assets/img/andilejaden.jpeg" alt="Andile Mbele">
-
-			</div>
+			<input type="text" id="someText" value="">
+			<button type="submit" class="btn btn-primary">Submit</button>
 		</div>
 <script type="text/javascript">
 
@@ -33,8 +28,10 @@
 	// $('ul').before('<h4>Most awesome people ...</h4>');
 
 	$(document).ready(function() {
-		
-	})
+		$('button').click(function() {
+			alert("Entered text: " + $('#someText').val());
+		});
+	});
 </script>
 	</body>
 </html>
