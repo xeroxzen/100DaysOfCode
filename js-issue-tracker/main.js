@@ -61,9 +61,9 @@ function deleteIssue(id) {
 	fetchIssues();
 }
 
-function fetchIssues() { 
+function fetchIssues() {
 	var issues = JSON.parse(localStorage.getItem('issues'));
-	const issuesList = document.getElementById('issuesList');
+	var issuesListe = document.getElementById('issuesList');
 
 	issuesList.innerHTML = '';
 
@@ -81,7 +81,7 @@ function fetchIssues() {
 								'<p><span class="glyphicon-time"></span>' + severity + '</p>' +
 								'<p><span class="glyphicon-user"></span>' + assignedTo + '</p>' +
 								'<a href="#" onclick="setStatusClosed(\''+id+'\')" class="btn btn-warning">Close</a>' +
-								'<a href="#" onclick="deleteIssue(\''+id+'\')" class="btn btn-delete">Delete</a>' +
+								'<a href="#" onclick="deleteIssue(\''+id+'\')" class="btn btn-danger">Delete</a>' +
 								'</div>';
 	}
 }
