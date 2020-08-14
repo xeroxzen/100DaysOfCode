@@ -1,52 +1,55 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-	<head>
-		<meta charset="utf-8">
-		<title>JS Issue Tracker</title>
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
-	</head>
-	<body onload="fetchIssues()">
-		<div class="container">
-			<h3>JS Issue Tracker <small>by Nexuslabs.com</small></h3>
-			<div class="jumbotron">
-				<h5>Add New Issue</h5>
-				<form id="issueInputForm">
-					<div class="form-group">
-						<label for="issueDescInput">Description</label>
-						<input type="text" name="" value="" class="form-control" id="issueDescInput" placeholder="Describe the issue...">
-					</div>
-					<div class="form-group">
-						<label for="issueSeverityInput">Severity</label>
-						<select id="issueSeverityInput" class="form-control">
+
+<head>
+    <meta charset="utf-8">
+    <title>JS Issue Tracker</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+</head>
+
+<body onload="fetchIssues()">
+    <div class="container">
+        <h3>JS Issue Tracker <small>by Nexuslabs.com</small></h3>
+        <div class="jumbotron">
+            <h5>Add New Issue</h5>
+            <form id="issueInputForm">
+                <div class="form-group">
+                    <label for="issueDescInput">Description</label>
+                    <input type="text" name="" value="" class="form-control" id="issueDescInput" placeholder="Describe the issue...">
+                </div>
+                <div class="form-group">
+                    <label for="issueSeverityInput">Severity</label>
+                    <select id="issueSeverityInput" class="form-control">
 							<option value="low">Low</option>
 							<option value="medium">Medium</option>
 							<option value="high">High</option>
 						</select>
-					</div>
-					<div class="form-group">
-						<label for="issueAssignedToInput">Assigned</label>
-						<input type="text" class="form-control" id="issueAssignedToInput" placeholder="Assign to user ...">
-					</div>
-					<button type="submit" class="btn btn-primary" name="button">Add</button>
-				</form>
-			</div>
-			<div class="col-lg-12">
-				<div id="issuesList">
-					<!-- #### -->
-				</div>
-			</div>
-			<div class="footer">
-				<p>&copy Nexuslabs.com</p>
-			</div>
-		</div>
+                </div>
+                <div class="form-group">
+                    <label for="issueAssignedToInput">Assigned</label>
+                    <input type="text" class="form-control" id="issueAssignedToInput" placeholder="Assign to user ...">
+                </div>
+                <button type="submit" class="btn btn-primary" name="button">Add</button>
+            </form>
+        </div>
+        <div class="col-lg-12">
+            <div id="issuesList">
+                <!-- #### -->
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy Nexuslabs.com</p>
+        </div>
+    </div>
 
-		<script src="main.js"></script>
-		<script src="https://chancejs.com/chance.min.js"></script>
+    <script src="main.js"></script>
+    <script src="https://chancejs.com/chance.min.js"></script>
 
-		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 
-		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8KUEfYiOMMV+rV" crossorigin="anonymous"></script>
-	</body>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8KUEfYiOMMV+rV" crossorigin="anonymous"></script>
+</body>
+
 </html>
