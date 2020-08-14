@@ -8,7 +8,7 @@ I am undertaking this challenge for the simple task that I want to be a full sta
 1. Learn MERN stack to become a full stack developer
 2. Learn how to use APIs and become more proficient with modern development
 3. Master Django CMS and Ecommerce so I can build ecommerce sites
-4. Master UI developement
+4. Master UI development
 
 ### To do projects
 1. Make a UI for Personal Diary and Dream Catcher
@@ -19,7 +19,7 @@ I am undertaking this challenge for the simple task that I want to be a full sta
 1. JavaScript and coding in-depth
 2. MongoDB
 3. Express
-5. ReactJS
+5. React.JS
 6. NodeJS
 7. Firebase
 8. Python/Django
@@ -43,15 +43,15 @@ I want to start from the very beginning by re-learning JavaScript before jumping
 #### Let's do this
 
 ### Day 1
-My #100DaysOfCode source code is available on https://github.com/xeroxzen/100DaysOfCode 
+My #100DaysOfCode source code is available on https://github.com/xeroxzen/100DaysOfCode
 
 It's Day 1 I didn't want to burn myself out so early. Instead I spent much of my time configuring my development environment. To ensure I remain productive and efficient I installed 100 Days of Code Pack
 
-It's a very neat add-on for VS Code, it's worth checking out. I figure I will be using the terminal a lot so I also went ahead and finally installed Microsoft Terminal which is highly customizable and handles multiple tabs. #100DaysOfCode 
+It's a very neat add-on for VS Code, it's worth checking out. I figure I will be using the terminal a lot so I also went ahead and finally installed Microsoft Terminal which is highly customizable and handles multiple tabs. #100DaysOfCode
 
 
-### Day 2 
-Covered JavaScript, it was more of a recap really, once I got my text editor fired up it all came back to me. I covered the JS fundamentals i.e 1) Data Types 2) Variables 3) arrays 4) if statements.Nerd face. #100DaysOfCode
+### Day 2
+Covered JavaScript, it was more of a recap really, once I got my text editor fired up it all came back to me. I covered the JS fundamentals ie 1) Data Types 2) Variables 3) arrays 4) if statements. #100DaysOfCode
 
 ### Day 3
 Covered JavaScript functions and conditionals. Covered a number of functions including built-in functions and user-defined #100DaysOfCode
@@ -67,3 +67,10 @@ I covered objects. I must admit, objects are a marvel to learn. Really great stu
 
 ### Day 7
 I covered classes
+
+### Day 8
+Promises, HTTP Requests
+
+### Day 9
+Project ```Javascript Issue Tracker ```
+Let's also do some JQuery
