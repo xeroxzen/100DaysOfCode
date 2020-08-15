@@ -1,0 +1,6 @@
+[submodule "notes-app-project"]
+	path = notes-app-project
+	url = https://github.com/romeojeremiah/notes-app-project.git/
+[submodule "random-user-api-project"]
+	path = random-user-api-project
+	url = https://github.com/romeojeremiah/random-user-api-project.git
