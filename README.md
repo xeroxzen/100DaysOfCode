@@ -74,3 +74,6 @@ Promises, HTTP Requests
 ### Day 9
 Project ```Javascript Issue Tracker ```
 Let's also do some JQuery
+
+### Day 10
+I like fancy stuff so I spent a lot of my time configuring the zsh terminal, it works really good
