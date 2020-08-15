@@ -76,4 +76,4 @@ Project ```Javascript Issue Tracker ```
 Let's also do some JQuery
 
 ### Day 10
-I like fancy stuff so I spent a lot of my time configuring the zsh terminal, it works really good
+I like fancy stuff so I spent a lot of my time configuring the zsh terminal, it works really good. Today I didn't run much code, I wasn't feeling too well and the motivation was just not there at all. I will have to work on that tomorrow.
