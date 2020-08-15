@@ -1,3 +1,4 @@
+
 document.getElementById('issueInputForm').addEventListener('submit', saveIssue);
 
 function saveIssue(e) {
@@ -83,4 +84,5 @@ function fetchIssues() {
                               '<a href="#" onclick="deleteIssue(\''+id+'\')" class="btn btn-danger">Delete</a>'+
                               '</div>';
   }
+  fetchIssues();
 }
