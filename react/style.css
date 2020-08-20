@@ -1,0 +1,13 @@
+body {
+    margin :0;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+.navbar {
+    background-color: #DF0174;
+    display: flex;   
+}
+a, .navbar {
+ text-decoration: none;
+ color: #F2F2F2;   
+}
