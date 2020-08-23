@@ -1,0 +1,6 @@
+# Ignore these files
+node_modules/
+.env
+.log
+dist/*
+logs/
