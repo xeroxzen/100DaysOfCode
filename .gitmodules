@@ -4,3 +4,6 @@
 [submodule "random-user-api-project"]
 	path = random-user-api-project
 	url = https://github.com/romeojeremiah/random-user-api-project.git
+[submodule "nodejs-basics"]
+	path = nodejs-basics
+	url = https://github.com/xeroxzen/nodejs-basics.git
