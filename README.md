@@ -19,7 +19,7 @@ I am undertaking this challenge for the simple task that I want to be a full sta
 6. API for best selling movies of all time
 
 ### Technologies to Learn
-1. JavaScript and coding in-depth 
+1. JavaScript and coding in-depth
 2. React.JS
 3. Express
 4. MongoDB
@@ -88,11 +88,13 @@ I like fancy stuff so I spent a lot of my time configuring the zsh terminal, it 
 ### Day 11
 Hello ReactJS ```ReactJS Food Recipe API ```
 
-### Day 12 
+### Day 12
 Deep dive into ReactJS by following on  a course on Scrimba. Tackling Multiple challenges
 
 ### Day 13
+Played with setting setting up a MERN Stack Project
 
 ### Day 14
+To Do App using MERN Stack
 
 ### Day 15
