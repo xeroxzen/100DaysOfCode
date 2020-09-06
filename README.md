@@ -73,7 +73,7 @@ Deep dive into Arrays.
 I covered objects. I must admit, objects are a marvel to learn. Really great stuff.
 
 ### Day 7
-I covered classes
+I covered JavaScript classes
 
 ### Day 8
 Promises, HTTP Requests
@@ -97,4 +97,4 @@ Played with setting setting up a MERN Stack Project
 ### Day 14
 To Do App using MERN Stack
 
-### Day 15
+### Day 15 to 25
