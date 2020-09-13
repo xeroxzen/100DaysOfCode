@@ -98,3 +98,22 @@ Played with setting setting up a MERN Stack Project
 To Do App using MERN Stack
 
 ### Day 15 to 25
+Dialogflow
+
+### Day 26 - 28
+Teaching my sister web design
+
+### Day 29
+Recap of HTML and CSS skills
+
+### Day 30
+MERN Stack tutorial with freeCodeAcademy
+
+### Day 31
+Exercise-Tracker Project
+
+### Day 32
+Rich List Tracker
+
+### Day 33
+Tesla Tracker
