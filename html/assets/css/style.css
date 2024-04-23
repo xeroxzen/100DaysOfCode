@@ -1,20 +1,21 @@
-body{
-	font-family: georgia;
-	padding-right: 60px;
-	padding-left: 60px;
+body {
+  font-family: sans-serif;
+  padding-right: 60px;
+  padding-left: 60px;
 }
-p{
-	font-size:14px;
-	font-family:sans-serif;
-	font-weight:lighter;
+p {
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: lighter;
 }
 
-h2, h3{
-	color: red;
-	font-weight:500;
+h2,
+h3 {
+  color: red;
+  font-weight: 500;
 }
 
 footer {
-	text-align: center;
-	position: static;
+  text-align: center;
+  position: static;
 }
