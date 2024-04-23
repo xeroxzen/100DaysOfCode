@@ -2,13 +2,13 @@
 document.getElementById('issueInputForm').addEventListener('submit', saveIssue);
 
 function saveIssue(e) {
-  var issueDesc = document.getElementById('issueDescInput').value;
-  var issueSeverity = document.getElementById('issueSeverityInput').value;
-  var issueAssignedTo = document.getElementById('issueAssignedToInput').value;
-  var issueId = chance.guid();
-  var issueStatus = 'Open';
+  let issueDesc = document.getElementById('issueDescInput').value;
+  let issueSeverity = document.getElementById('issueSeverityInput').value;
+  let issueAssignedTo = document.getElementById('issueAssignedToInput').value;
+  let issueId = chance.guid();
+  let issueStatus = 'Open';
 
-  var issue = {
+  let issue = {
     id: issueId,
     description: issueDesc,
     severity: issueSeverity,
@@ -17,11 +17,11 @@ function saveIssue(e) {
   }
 
   if (localStorage.getItem('issues') == null) {
-    var issues = [];
+    let issues = [];
     issues.push(issue);
     localStorage.setItem('issues', JSON.stringify(issues));
   } else {
-    var issues = JSON.parse(localStorage.getItem('issues'));
+    const issues = JSON.parse(localStorage.getItem('issues'));
     issues.push(issue);
     localStorage.setItem('issues', JSON.stringify(issues));
   }
