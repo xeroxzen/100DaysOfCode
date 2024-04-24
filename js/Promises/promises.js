@@ -20,7 +20,7 @@ const promise = new Promise((resolve, reject) => {
         reject(Error('Error'));
     }
 });
-promise.them((res) => console.log(res), (err) => alert(err));
+promise.then((res) => console.log(res), (err) => alert(err));
 
 // Creating a Javascript Promise object
 // An instance of aJS Promise object is creted using the new keyword
@@ -32,31 +32,31 @@ const executorFn = (resolve, reject) => {
 };
 
 
-const promise = new Promise(executorFn);
+const promise1 = new Promise(executorFn);
 
 // Executor function of JavaScript Promise object
 // A JavaScript promise’ s executor function takes two functions as its arguments.The first parameter represents the function that should be called to resolve the promise and the other one is used when the promise should be rejected.A Promise object may use any one or both of them inside its executor function.
 
 // In the given example, the promise is always resolved unconditionally by the resolve function.The reject function could be used for a rejection.
 
-const executorFn = (resolve, reject) => {
+const executorFn2 = (resolve, reject) => {
     resolve('Resolved!');
 };
 
-const promise = new Promise(executorFn);
+const promise2 = new Promise(executorFn2);
 
 // .then() method of a JavaScript Promise object
 // The.then() method of a JavaScript Promise object can be used to get the eventual result(or error) of the asynchronous operation.
 
 // .then() accepts two function arguments.The first handler supplied to it will be called if the promise is resolved.The second one will be called if the promise is rejected.
 
-const promise = new Promise((resolve, reject) => {
+const promise3 = new Promise((resolve, reject) => {
     setTimeout(() => {
         resolve('Result');
     }, 200);
 });
 
-promise.then((res) => {
+promise3.then((res) => {
     console.log(res);
 }, (err) => {
     alert(err);
@@ -76,7 +76,7 @@ setTimeout(loginAlert, 6000);
 
 // Chaining helps streamline the development process because it makes the code more readable and easier to debug.
 
-const promise = new Promise((resolve, reject) => {
+const promise4 = new Promise((resolve, reject) => {
     setTimeout(() => {
         resolve('*');
     }, 1000);
@@ -95,4 +95,4 @@ const print = (val) => {
 };
 
 // Chaining them all together
-promise.then(twoStars).then(oneDot).then(print);
+promise4.then(twoStars).then(oneDot).then(print);
