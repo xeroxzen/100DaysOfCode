@@ -34,7 +34,7 @@ function saveIssue(e) {
 }
 
 function setStatusClosed(id) {
-  var issues = JSON.parse(localStorage.getItem('issues'));
+  const issues = JSON.parse(localStorage.getItem('issues'));
 
   for (var i = 0; i < issues.length; i++) {
     if (issues[i].id == id) {
@@ -48,9 +48,9 @@ function setStatusClosed(id) {
 }
 
 function deleteIssue(id) {
-  var issues = JSON.parse(localStorage.getItem('issues'));
+  const issues = JSON.parse(localStorage.getItem('issues'));
 
-  for (var i = 0; i < issues.length; i++) {
+  for (let i = 0; i < issues.length; i++) {
     if (issues[i].id == id) {
       issues.splice(i, 1);
     }
@@ -68,11 +68,11 @@ function fetchIssues() {
   issuesList.innerHTML = '';
 
   for (var i = 0; i < issues.length; i++) {
-    var id = issues[i].id;
-    var desc = issues[i].description;
-    var severity = issues[i].severity;
-    var assignedTo = issues[i].assignedTo;
-    var status = issues[i].status;
+    const id = issues[i].id;
+    const desc = issues[i].description;
+    const severity = issues[i].severity;
+    const assignedTo = issues[i].assignedTo;
+    const status = issues[i].status;
 
     issuesList.innerHTML +=   '<div class="well">'+
                               '<h6>Issue ID: ' + id + '</h6>'+
