@@ -23,9 +23,9 @@ const promise = new Promise((resolve, reject) => {
 promise.then((res) => console.log(res), (err) => alert(err));
 
 // Creating a Javascript Promise object
-// An instance of aJS Promise object is creted using the new keyword
+// An instance of aJS Promise object is created using the new keyword
 
-//The constructorof the Promie object takess a function, known as the executor function, as the argument. This function is responsible for resolving or rejecting the promise
+//The constructor of the Promise object takes a function, known as the executor function, as the argument. This function is responsible for resolving or rejecting the promise
 
 const executorFn = (resolve, reject) => {
     console.log('The executor function of the promise!');
