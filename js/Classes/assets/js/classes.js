@@ -6,38 +6,27 @@
 // The code sample shows a class that represents a Song.A new object called mySong is created underneath and the.play() method on the class is called.The result would be the text Song playing!printed in the console.
 
 class Song {
-    constructor() {
-        this.title;
-        this.author;
-    }
+  constructor(title, artist) {
+    this.title = title;
+    this.artist = artist;
+  }
 
-    play() {
-        console.log('Song Playing!');
-    }
+  play() {
+    console.log(`Playing ${this.title} by ${this.artist}`);
+  }
+
+  stop() {
+    console.log(`Stopping ${this.title} by ${this.artist}`);
+  }
 }
 
-const mySong = new Song();
+// Create a song object
+const mySong = new Song("The 1", "Taylor Swift");
+
+// Play and stop the song
 mySong.play();
+mySong.stop(); 
 
-class Song {
-    constructor(title, artist) {
-        this.title;
-        this.artist;
-    }
-}
-let mySong = new Song('The 1', 'Taylor Swift');
-console.log(mySong.title);
-
-class Song {
-    play() {
-
-        console.log('Playing');
-    }
-
-    stop() {
-        console.log('Stopping!');
-    }
-}
 
 // extends
 
@@ -62,7 +51,7 @@ class Song extends Media {
     }
 }
 
-const mySong = new Song({
+const mySong2 = new Song({
     artist: 'Taylor Swift',
     name: 'The 1',
     time: 3.30,
