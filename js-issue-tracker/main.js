@@ -36,7 +36,7 @@ function saveIssue(e) {
 function setStatusClosed(id) {
   const issues = JSON.parse(localStorage.getItem('issues'));
 
-  for (var i = 0; i < issues.length; i++) {
+  for (let i = 0; i < issues.length; i++) {
     if (issues[i].id == id) {
       issues[i].status = 'Closed';
     }
@@ -62,12 +62,12 @@ function deleteIssue(id) {
 }
 
 function fetchIssues() {
-  var issues = JSON.parse(localStorage.getItem('issues'));
-  var issuesListe = document.getElementById('issuesList');
+  let issues = JSON.parse(localStorage.getItem('issues'));
+  let issuesList= document.getElementById('issuesList');
 
   issuesList.innerHTML = '';
 
-  for (var i = 0; i < issues.length; i++) {
+  for (let i = 0; i < issues.length; i++) {
     const id = issues[i].id;
     const desc = issues[i].description;
     const severity = issues[i].severity;
