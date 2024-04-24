@@ -12,7 +12,7 @@ console.log(myArray[2]);
 // Property.length
 // The.length propertyof JS array indicates the number of elements the array contains
 
-const numbers = [1, 2, 3, 4];
+const numbers1 = [1, 2, 3, 4];
 numbers.length //4
 
 // Method.push()
@@ -23,7 +23,7 @@ cart.push('coke');
 
 console.log(cart);
 
-const numbers = [1, 2, 3];
+const numbers2 = [1, 2, 3];
 numbers.push(4, 5, 6); //1, 2, 3, 4, 5, 6
 
 

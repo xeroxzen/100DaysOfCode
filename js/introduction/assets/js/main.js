@@ -116,8 +116,8 @@ let age = 22;
 
 // Template Literals
 //Template literals are strings that allow embedded expressions, ${expression}. While regular strings use single ' or double " quotes, template literals use backticks instead.
-let name = "Nexuslabs";
+let name2 = "Nexuslabs";
 
-console.log(`Hello, ${name}`); // Prints: Hello, Nexuslabs
+console.log(`Hello, ${name2}`); // Prints: Hello, Nexuslabs
 
 console.log(`Andile is ${15 + 7} years old`); // Prints: Andile is 22 years old.

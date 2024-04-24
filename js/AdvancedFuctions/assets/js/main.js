@@ -19,10 +19,3 @@ function calcMax(a, b, c) {
 }
 
 document.write("<br>The max number is " + calcMax(4, 6, 9));
-
-/*function enquire() {
-firstName = window.prompt("What's your first name?")
-lastName = window.prompt("What's your last name?")
-return firstName + " " + lastName;
-}
-document.write("<br>" + enquire())*/

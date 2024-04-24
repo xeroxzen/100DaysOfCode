@@ -1,5 +1,5 @@
 //Let's se JS Objects 
-// NB: In Javascrip,functions are objects, functions can be passed asarguments
+// NB: In Javascript,functions are objects, functions can be passed as arguments
 
 // An object is abuilt-in data type for storing key-value pairs. Data inside objects are unordered, and can be of any type.author
 
@@ -19,7 +19,7 @@ const persona = {
 };
 
 //How do we then access Objects?
-//Propoersties of a JSobjectcan be accessed using the dot notation.
+//Properties of a JS objects can be accessed using the dot notation.
 
 const apple = {
     color: 'Green',
@@ -241,7 +241,7 @@ myMachine.name('Diana');
 // JavaScript getter and setter methods are helpful in part because they offer a way to intercept property access and assignment, and allow
 // for additional actions to be performed before these changes go into effect.
 
-const myCat = {
+const mySecondCat = {
     _name: 'Snickers',
     get name() {
         return this._name
